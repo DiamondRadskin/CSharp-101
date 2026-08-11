@@ -11,14 +11,12 @@ namespace Excercises1
 
             //2026-08 -11 Lab 5
             Dictionary<string, int> serverCluster = new Dictionary<string, int>();
-
-
-           
+                                 
             serverCluster.Add("Server-Alpha", 15);
-             serverCluster.Add("Server-Beta", 250);
-             serverCluster.Add("Server-Gamma", -1);
-             serverCluster.Add("Server-Delta", 45);
-             serverCluster.Add("Server-Epsilon", 999);
+            serverCluster.Add("Server-Beta", 250);
+            serverCluster.Add("Server-Gamma", -1);
+            serverCluster.Add("Server-Delta", 45);
+            serverCluster.Add("Server-Epsilon", 999);
 
             if (serverCluster.ContainsKey("Server-Gamma"))
             {
@@ -41,16 +39,6 @@ namespace Excercises1
                     Console.WriteLine($"[OK] {kvp.Key} - Ping: {kvp.Value}ms");
                 }
             }
-
-
-
-
-
-
-
-
-
-
 
 
             /*2026-08-11 Lab 4

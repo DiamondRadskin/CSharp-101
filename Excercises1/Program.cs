@@ -7,8 +7,8 @@
             //Console.WriteLine("Hello, World!");
             //Basics1 exercise1 = new Basics1();
 
-            CollectionsStrings1 exercise1 = new CollectionsStrings1();
-            exercise1.exercise();  
+            CollectionsStrings2 exercise2 = new CollectionsStrings2();
+            exercise2.exercise();  
         }
     }
 }

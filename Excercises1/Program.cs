@@ -5,9 +5,10 @@
         static void Main(string[] args)
         {
             //Console.WriteLine("Hello, World!");
-            Basics1 exercise1 = new Basics1();
-            exercise1.Run();
+            //Basics1 exercise1 = new Basics1();
 
+            CollectionsStrings1 exercise1 = new CollectionsStrings1();
+            exercise1.exercise();  
         }
     }
 }

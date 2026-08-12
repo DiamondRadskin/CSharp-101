@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Excercises1
 {
-    internal class Exercise1
+    internal class Basics1
     {
         public void Run()
         {

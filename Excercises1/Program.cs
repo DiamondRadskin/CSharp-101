@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             //Console.WriteLine("Hello, World!");
-            Exercise1 exercise1 = new Exercise1();
+            Basics1 exercise1 = new Basics1();
             exercise1.Run();
 
         }

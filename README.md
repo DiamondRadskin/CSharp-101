@@ -20,7 +20,7 @@ Focus Areas: Fundamental Programming, Data Structures, Control Flow, Loops and D
 Clone this repository:
 
 Bash
-git clone https://github.com/DiamondRadskin/CSharp-101.git
+git clone https://github.com/DiamondRadskin/dotNet-CSharp-Sandbox.git
 Open the solution file (.sln) in Visual Studio.
 
 Set the desired lab block inside Program.cs.

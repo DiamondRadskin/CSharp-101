@@ -11,7 +11,9 @@ namespace Excercises1
             /*
              * 2026-08-15
              * 
-             * Firewall Access Control & Port Validator
+             * Lab Exercise: Firewall Access Control & Port Validator
+             * AI Generated Exercise but Manually Coded :) \m/
+             * 
              * Scenario
              * Dime is building an ingress firewall rule auditor. The incoming traffic logs contain raw
              * connection strings. He needs to parse each entry, validate whether the connection is allowed 

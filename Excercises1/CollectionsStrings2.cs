@@ -6,26 +6,28 @@ namespace Excercises1
 {
     internal class CollectionsStrings2
     {
+        /*
+         * 2026-08-12
+         * 
+         * Lab Exercie: Server Performance Registry & Batch Auditor
+         * AI Generated Exercise but Manually Coded :) \m/ 
+         * 
+         * Dime is processing diagnostic log entries from a cluster of servers. Each 
+         * log string is formatted as:
+         *
+         * "SERVER_NAME:PING_MS:MEMORY_USAGE_PERCENT"
+         *   
+         * He needs to parse these strings, evaluate server metrics using if / else if / 
+         * else conditions, and store the output in a Dictionary<string, string> where:
+         *   
+         * Key = Server Name (string)
+         * Value = Evaluated Status ("OFFLINE", "CRITICAL", "WARNING", or "HEALTHY")
+         * 
+         */
+
         public void exercise()
         {
-            /*
-             * 2026-08-12
-             * 
-             * Lab 2: Server Performance Registry & Batch Auditor
-             * 
-             * Dime is processing diagnostic log entries from a cluster of servers. Each 
-             * log string is formatted as:
-             *
-             * "SERVER_NAME:PING_MS:MEMORY_USAGE_PERCENT"
-             *   
-             * He needs to parse these strings, evaluate server metrics using if / else if / 
-             * else conditions, and store the output in a Dictionary<string, string> where:
-             *   
-             * Key = Server Name (string)
-             * Value = Evaluated Status ("OFFLINE", "CRITICAL", "WARNING", or "HEALTHY")
-             * 
-             */
-
+ 
             List<string> rawServerData = new List<string>
             {
                 "Server-Alpha:25:45",

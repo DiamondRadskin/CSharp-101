@@ -6,20 +6,21 @@ namespace Excercises1
 {
     internal class CollectionsStrings1
     {
+        /* 
+         *  2026-08-12
+         *  
+         *  Lab Exercise: CSV Log Parser & Elevated Access Filtering(Focus: Arrays -> List<T>, for loop, 
+         *  switch statement, .Split())
+         *  AI Generated Exercise but Manually Coded :) \m/
+         *  
+         *  Scenario - Dime receives a raw CSV-formatted log string exported from an 
+         *  authentication server. He needs to parse the lines, split the columns into an array, and use a 
+         *  switch statement to route users into an active access list based on their role.
+         * 
+         */
+
         public void exercise()
         {
-
-            /* 
-             *  2026-08-12
-             *  
-             *  Lab 1: CSV Log Parser & Elevated Access Filtering(Focus: Arrays -> List<T>, for loop, 
-             *  switch statement, .Split())
-             *  
-             *  Scenario - Dime receives a raw CSV-formatted log string exported from an 
-             *  authentication server. He needs to parse the lines, split the columns into an array, and use a 
-             *  switch statement to route users into an active access list based on their role.
-             * 
-             */
 
             string rawCsvData = "USER_ID,USERNAME,ROLE,STATUS|101,dime_admin,ADMIN,ACTIVE|102,eryk_dev,DEV,ACTIVE|103,guest_01,GUEST,INACTIVE|104,tochi_lead,LEAD,ACTIVE|105,temp_user,GUEST,ACTIVE";
             

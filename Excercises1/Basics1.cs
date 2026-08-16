@@ -6,6 +6,13 @@ namespace Excercises1
 {
     internal class Basics1
     {
+        /*
+         * 
+         * C# Basics / Fundamentals
+         * AI Generated Exercise but Manually Coded :) \m/
+         * 
+         */
+
         public void Run()
         {
 

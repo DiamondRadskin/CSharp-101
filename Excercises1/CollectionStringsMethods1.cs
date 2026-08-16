@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Excercises1
 {
-    internal class CollectionStrings4Methods1
+    internal class CollectionStringsMethods1
     {
         /*
          * Lab Exercie: Server Storage Fee Calculator

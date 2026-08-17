@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Excercises1
 {
-    internal class CollectionsStrings3
+    internal class Collections3
     {
         public void exercise()
         {

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Excercises1
 {
-    internal class CollectionsStrings2
+    internal class Collections2
     {
         /*
          * 2026-08-12

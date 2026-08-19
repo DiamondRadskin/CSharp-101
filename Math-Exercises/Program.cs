@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-            CartetianPlane challenge = new CartetianPlane();
-            challenge.exercise();
+            Excercise1 challenge2 = new Excercise1();
+            challenge2.exercise();
         }
     }
 }

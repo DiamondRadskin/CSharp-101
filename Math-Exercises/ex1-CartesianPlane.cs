@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+ * 2026-08-17
+ * 
+ * Simple exercise for determining quadrant for given coordinates on Cartetian Plane
+ * 
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,13 +13,6 @@ namespace Math_Exercises
 {
     internal class CartetianPlane
     {
-        /*
-         * 2026-08-17
-         * 
-         * Simple exercise for determining quadrant for given coordinates on Cartetian Plane
-         * 
-         */
-
         public void exercise()
         {
             int xAxis = 10;

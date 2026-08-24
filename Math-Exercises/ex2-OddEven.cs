@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+ * 2026-08-19
+ *
+ * Exercise on determining if numbers are even or odd from an array.
+ * 
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
@@ -6,14 +13,8 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Math_Exercises
 {
-    internal class Excercise1
+    internal class OddEven
     {
-        /*
-         * 2026-08-19
-         *
-         * Exercise on determining if numbers are even or odd from arrays.
-         */
-
         public void exercise()
         {
             int[] refNumbers = {14, -2, 31, 4, 5, 46, 7, 18, 9, 10, 46, 98, 23, 54, 56};

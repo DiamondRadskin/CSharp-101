@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Excercise1 challenge2 = new Excercise1();
+            Excercise03 challenge2 = new Excercise03();
             challenge2.exercise();
         }
     }

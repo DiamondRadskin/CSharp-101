@@ -1,23 +1,23 @@
-﻿using System;
+﻿/*
+ * 2026-08-16
+ * 
+ * Lab Exercie: Server Storage Fee Calculator
+ * AI Generated Exercise but Manually Coded :) \m/
+ * 
+ * Scenario
+ * Dime, you have a lst of servers with their allocated storage (in GB), used storage (in GB), 
+ * and backup status. You will write one simple method that calculates extra storage costs, 
+ * then use it inside your loop to populate your collections.
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Excercises1
 {
-    internal class Collections4
+    internal class Exercise05
     {
-        /*
-         * 2026-08-16
-         * 
-         * Lab Exercie: Server Storage Fee Calculator
-         * AI Generated Exercise but Manually Coded :) \m/
-         * 
-         * Scenario
-         * Dime, you have a lst of servers with their allocated storage (in GB), used storage (in GB), 
-         * and backup status. You will write one simple method that calculates extra storage costs, 
-         * then use it inside your loop to populate your collections.
-        */
-                
         public void exercise()
         {
             string rawData = "SERVER_ID:ALLOCATED_GB:USED_GB:HAS_BACKUP|SRV-01:100:80:true|SRV-02:50:90:true|SRV-03:200:250:false|SRV-04:100:100:true";

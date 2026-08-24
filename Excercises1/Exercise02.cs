@@ -1,4 +1,17 @@
-﻿using System;
+﻿/* 
+ * 2026-08-12
+ *  
+ *  Lab Exercise: CSV Log Parser & Elevated Access Filtering(Focus: Arrays -> List<T>, for loop, 
+ *  switch statement, .Split())
+ *  AI Generated Exercise but Manually Coded :) \m/
+ *  
+ *  Scenario - Dime receives a raw CSV-formatted log string exported from an 
+ *  authentication server. He needs to parse the lines, split the columns into an array, and use a 
+ *  switch statement to route users into an active access list based on their role.
+ * 
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,19 +19,6 @@ namespace Excercises1
 {
     internal class CollectionsStrings1
     {
-        /* 
-         *  2026-08-12
-         *  
-         *  Lab Exercise: CSV Log Parser & Elevated Access Filtering(Focus: Arrays -> List<T>, for loop, 
-         *  switch statement, .Split())
-         *  AI Generated Exercise but Manually Coded :) \m/
-         *  
-         *  Scenario - Dime receives a raw CSV-formatted log string exported from an 
-         *  authentication server. He needs to parse the lines, split the columns into an array, and use a 
-         *  switch statement to route users into an active access list based on their role.
-         * 
-         */
-
         public void exercise()
         {
 

@@ -1,26 +1,28 @@
-﻿using System;
+﻿/*
+ * 2026-08-15
+ * 
+ * Lab Exercise: Firewall Access Control & Port Validator
+ * AI Generated Exercise but Manually Coded :) \m/
+ * 
+ * Scenario
+ * Dime is building an ingress firewall rule auditor. The incoming traffic logs contain raw
+ * connection strings. He needs to parse each entry, validate whether the connection is allowed 
+ * using boolean flags, and organize the allowed versus blocked connections into dedicated 
+ * collection containers.
+ */
+
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Excercises1
 {
-    internal class Collections3
+    internal class Exercise04
     {
         public void exercise()
         {
-            /*
-             * 2026-08-15
-             * 
-             * Lab Exercise: Firewall Access Control & Port Validator
-             * AI Generated Exercise but Manually Coded :) \m/
-             * 
-             * Scenario
-             * Dime is building an ingress firewall rule auditor. The incoming traffic logs contain raw
-             * connection strings. He needs to parse each entry, validate whether the connection is allowed 
-             * using boolean flags, and organize the allowed versus blocked connections into dedicated 
-             * collection containers.
-             */
-             
+                         
             string rawTrafficData = "TRAFFIC_ID:IP:PORT:PROTOCOL:IS_ENCRYPTED|T101:192.168.1.50:443:TCP:true|T102:10.0.0.12:80:TCP:false|T103:172.16.0.4:22:SSH:true|T104:192.168.1.99:8080:HTTP:false|T105:10.0.0.25:443:TCP:true|T106:172.16.0.88:3389:RDP:false";
              
 

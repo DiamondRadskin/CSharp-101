@@ -7,7 +7,7 @@
             //Console.WriteLine("Hello, World!");
             //Basics1 exercise1 = new Basics1();
 
-            Collections5 exercise4 = new Collections5();
+            Exercise06 exercise4 = new Exercise06();
             exercise4.exercise();
                     }
     }

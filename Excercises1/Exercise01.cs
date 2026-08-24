@@ -1,18 +1,19 @@
-﻿using System;
+﻿/*
+ * 
+ * C# Basics / Fundamentals
+ * AI Generated Exercise but Manually Coded :) \m/
+ * 
+*/
+
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Excercises1
 {
-    internal class Basics1
+    internal class Exercise01
     {
-        /*
-         * 
-         * C# Basics / Fundamentals
-         * AI Generated Exercise but Manually Coded :) \m/
-         * 
-         */
-
         public void Run()
         {
 

@@ -21,6 +21,8 @@ namespace Math_Exercises
             List<double> highTempts = new List<double>();
             const int HIGHTEMPT = 3;
 
+            
+            
 
             for (int i = 0; i < farenheits.Length; i++)
             {
@@ -34,7 +36,7 @@ namespace Math_Exercises
             }
             
             Console.WriteLine(string.Join(" - ", highTempts));   
-        
+            
         }
 
         public double convertToCelcius(double fahrenheit)

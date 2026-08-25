@@ -10,6 +10,7 @@ namespace Math_Exercises
         {
             Dictionary<int, double[]> voltageCurrent = new Dictionary<int, double[]>
             {
+                
                 {1, [9.4, 32.8]},
                 {2, [10.6, 15.2]},
                 {3, [19.3, 23.5]},
